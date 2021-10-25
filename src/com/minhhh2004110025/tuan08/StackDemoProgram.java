@@ -2,7 +2,7 @@ package com.minhhh2004110025.tuan08;
 
 import java.util.Stack;
 
-public class StackDemoPropram {
+public class StackDemoProgram {
     public static void main(String[] args){
         Stack <String> stack;
         stack = new Stack<>();

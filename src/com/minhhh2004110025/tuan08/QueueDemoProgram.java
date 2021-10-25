@@ -4,7 +4,7 @@ import java.util.Queue;
 import java.util.LinkedList;
 import java.util.List;
 
-public class QueueDemoPropram {
+public class QueueDemoProgram {
     public static void main(String[] args) {
 
         Queue<Integer> queue ;
