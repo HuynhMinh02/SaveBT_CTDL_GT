@@ -6,20 +6,13 @@ public class MyLinkedList {
     
     public MyLinkedList(){
     }
-    void add(int data) {
-        // bước 1: tạo node mới 
-        Node newNode = new Node(data);
-        // bươc 2: kiểm tra và thêm một nút vao danh sách rỗng
+    void removeHead(Node head) {
         if (head == null){
-            head = newNode;
-            tail = newNode;
+            System.out.println("Danh sách rỗng");
+            return;
         }else{
-            //nếu danh sách không rỗng //thêm vao duôi danh sách
-            tail.next =newNode;
-            tail = newNode;// di chuyển theo ra cuối
+            head = head.next;
         }
-    }
-    void remove(){
 
     }
     void print(){
@@ -40,5 +33,4 @@ public class MyLinkedList {
     void find(){
 
     }
-
 }
