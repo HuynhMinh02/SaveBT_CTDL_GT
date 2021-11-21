@@ -1,3 +1,5 @@
+package com.minhhh2004110025.tuan09;
+
 public class DemoTimKiem {
     public static int timKiem(int arr[], int x){
         int n = arr.length;

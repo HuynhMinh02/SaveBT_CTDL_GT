@@ -1,3 +1,5 @@
+package com.minhhh2004110025.tuan09;
+
 public class DemoBinarySearch {
     public static int binarySearch (int arr[], int x){
         int l = 0, r = arr.length - 1;
