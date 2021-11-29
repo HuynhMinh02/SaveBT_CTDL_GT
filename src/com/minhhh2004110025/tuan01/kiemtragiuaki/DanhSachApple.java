@@ -1,4 +1,4 @@
-package com.minhhh2004110025.kiemtragiuaki;
+package com.minhhh2004110025.tuan01.kiemtragiuaki;
 
 import java.util.ArrayList;
 import java.util.Scanner;

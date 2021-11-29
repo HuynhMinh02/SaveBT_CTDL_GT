@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan07;
+package com.minhhh2004110025.tuan06.tuan07;
 
 public class MyLinkedListTestDrive {
     public static void main(String[] args) {

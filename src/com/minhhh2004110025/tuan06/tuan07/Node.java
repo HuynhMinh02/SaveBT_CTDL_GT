@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan07;
+package com.minhhh2004110025.tuan06.tuan07;
 
 public class Node {
     //Nội dung
