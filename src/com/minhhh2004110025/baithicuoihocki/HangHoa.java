@@ -1,6 +1,9 @@
 package com.minhhh2004110025.baithicuoihocki;
 
 import java.util.Scanner;
+import java.util.Date;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 
 public class HangHoa {
     String loaiHang;
@@ -8,15 +11,17 @@ public class HangHoa {
     String name;
     double giaNhap;
     int tonKho;
+    Date ngayNhapkho;
 
     HangHoa(){
 
     }
-    HangHoa(String loai, String id, String ten, double gia, int tk){
+    HangHoa(String loai, String id, String ten, int i, int tk){
         loaiHang = loai ;
         maHang = id ;
         name = ten ;
-        giaNhap = gia ;
+        giaNhap = i ;
+       // ngayNhapkho = nnk ;
         tonKho = tk ;
     }
     Scanner scanner = new Scanner(System.in);
