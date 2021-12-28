@@ -1,49 +1,86 @@
 package com.minhhh2004110025.baithicuoihocki;
 
 import java.util.Scanner;
-import java.util.Date;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class HangHoa {
+    static int autoId;
+    int id;
     String loaiHang;
-    String maHang;
     String name;
     double giaNhap;
     int tonKho;
-    Date ngayNhapkho;
+    Date ngayNhapHang = new Date();
+    SimpleDateFormat formatter = new SimpleDateFormat("dd-MM-yyyy");
+    String strDate = formatter.format(ngayNhapHang);
+    private Node head, tail;
 
-    HangHoa(){
+    public HangHoa(String loai, String name, double gia, Date nnk, int tonKho) {
+        this.id = HangHoa.autoId++;
+        this.loaiHang = loai;
+        this.name = name;
+        this.giaNhap = gia;
+        this.ngayNhapHang = nnk;
+        this.tonKho = tonKho;
+    }
 
+    public HangHoa() {
     }
-    HangHoa(String loai, String id, String ten, int i, int tk){
-        loaiHang = loai ;
-        maHang = id ;
-        name = ten ;
-        giaNhap = i ;
-       // ngayNhapkho = nnk ;
-        tonKho = tk ;
+
+    public int getId(){
+        return this.id;
     }
-    Scanner scanner = new Scanner(System.in);
-    void nhapthongtinHangHoa(){
-        System.out.println ("Loại Hàng Hóa: ");
-        loaiHang = scanner.nextLine();
-        System.out.println ("Mã ID: ");
-        maHang = scanner.nextLine();
-        System.out.println ("Tên hàng hóa: ");
-        name = scanner.nextLine();
-        System.out.println ("Giá sản phẩm nhập: ");
-        giaNhap = scanner.nextDouble();
-        System.out.println ("Số lượng sản phẩm trong kho: ");
-        tonKho = scanner.nextInt();
+
+    public void setId(int id) {
+        this.id = id;
     }
-    void inthongtinHangHoa(){
-        System.out.println("_______________>><<_______________");
-        System.out.println("Loại: " + loaiHang);
-        System.out.println("Id: " + maHang);
-        System.out.println("Tên sản phẩm: " + name);
-        System.out.println("Giá nhập: " + giaNhap);
-        System.out.println("Số lượng hàng tồn kho: " + tonKho);
-        System.out.println("_______________>><<_______________");
+
+    public String getLoaiHang(){
+        return this.loaiHang;
+    }
+
+    public void setLoaiHang(String loai){
+        this.loaiHang = loai;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public void setName(String name){
+        this.name = name;
+    }
+
+    public double getGiaNhap() {
+        return this.giaNhap;
+    }
+
+    public void setGiaNhap(double gia){
+        this.giaNhap = gia;
+    }
+
+    public Date getNgayNhapHang(){
+        return this.ngayNhapHang;
+    }
+
+    public void setNgayNhapHang(Date nkk){
+        this.ngayNhapHang = nkk;
+    }
+
+    public int getTonKho(){
+        return this.tonKho;
+    }
+
+    public void setTonKho(int tk){
+        this.tonKho = tk;
+    }
+
+    public String getStrDate() {
+        return strDate;
+    }
+    
+    public void setStrDate(String strDate) {
+        this.strDate = strDate;
     }
 }

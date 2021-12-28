@@ -1,19 +1,36 @@
 package com.minhhh2004110025.baithicuoihocki;
 
 public class Node {
-    int data;
+    public HangHoa hanghoa;
+    public Node next;
 
-    Node next;
+    public Node(){
 
-    public Object hanghoa;
-    
-    Node() {}
-
-    Node(int d) {
-        data = d ;
     }
-    Node(int d, Node n) {
-        data = d;
-        next = n;
+
+    public Node(HangHoa hanghoa) {
+        this.hanghoa = hanghoa;
+        this.next = null;
+    }
+
+    public HangHoa getHangHoa(){
+        return hanghoa;
+    }
+
+    public void setHangHoa(HangHoa hanghoa){
+        this.hanghoa = hanghoa;
+    }
+
+    public Node getNext(){
+        return next;
+    }
+
+    public void setNext(Node next){
+        this.next = next;
+    }
+
+    public Node (HangHoa hanghoa, Node next) {
+        this.hanghoa = hanghoa;
+        this.next = next;
     }
 }

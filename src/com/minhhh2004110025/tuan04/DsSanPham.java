@@ -5,7 +5,7 @@ import java.util.Scanner;
 import java.util.Collections;
 
 public class DsSanPham {
-    private ArrayList <sanPham> list = new ArrayList<>();
+    private ArrayList <sanPham> list = new ArrayList<sanPham>();
 
     public void nhapSanPham(){
         System.out.println("Nhập danh sách sản phẩm") ;
