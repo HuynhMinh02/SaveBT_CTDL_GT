@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan01.lap1;
+package com.minhhh2004110025.hocki1.tuan01.lap1;
 
 import java.util.Scanner;
 public class Lap1Bai2 {

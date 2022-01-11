@@ -1,4 +1,4 @@
-package com.minhhh2004110025.baitapthem;
+package com.minhhh2004110025.hocki1.baitapthem;
 
 public class MayTinhnew {
     String nhaSanxuat;

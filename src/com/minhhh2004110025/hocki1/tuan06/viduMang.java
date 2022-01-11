@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan06;
+package com.minhhh2004110025.hocki1.tuan06;
 
 import java.util.Scanner;
 

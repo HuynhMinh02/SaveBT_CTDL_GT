@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan07;
+package com.minhhh2004110025.hocki1.tuan07;
 
 public class MyLinkedList {
     Node head = null;

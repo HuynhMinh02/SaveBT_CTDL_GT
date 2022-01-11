@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan01.nhap;
+package com.minhhh2004110025.hocki1.tuan01.nhap;
 
 public class Node {
         Apple data;

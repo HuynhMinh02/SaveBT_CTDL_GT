@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan02;
+package com.minhhh2004110025.hocki1.baitapthem;
 
 public class App {
     public static void main (String [] args) {

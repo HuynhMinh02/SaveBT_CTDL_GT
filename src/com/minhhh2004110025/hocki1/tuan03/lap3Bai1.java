@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan03;
+package com.minhhh2004110025.hocki1.tuan03;
 
 import static java.lang.Math.sqrt;
 import java.util.Scanner;

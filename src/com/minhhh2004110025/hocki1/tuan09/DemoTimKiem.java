@@ -1,4 +1,4 @@
-package com.minhhh2004110025.tuan09;
+package com.minhhh2004110025.hocki1.tuan09;
 
 public class DemoTimKiem {
     public static int timKiem(int arr[], int x){

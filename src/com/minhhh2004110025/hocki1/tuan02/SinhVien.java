@@ -1,5 +1,4 @@
-package com.minhhh2004110025.tuan02;
-
+package com.minhhh2004110025.hocki1.tuan02;
 import java.util.Date; 
 
 public class SinhVien {

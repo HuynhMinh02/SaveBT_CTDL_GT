@@ -1,10 +1,10 @@
-package com.minhhh2004110025.tuan05;
+package com.minhhh2004110025.hocki1.tuan05;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.minhhh2004110025.tuan04.Student;
-import com.minhhh2004110025.tuan04.Dog;
+import com.minhhh2004110025.hocki1.tuan04.Dog;
+import com.minhhh2004110025.hocki1.tuan04.Student;
 
 public class CTMHArrayList {
     public static void main(String[] args) {
