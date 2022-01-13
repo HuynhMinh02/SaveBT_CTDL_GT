@@ -8,8 +8,8 @@ public class EmployeeTestDrive {
         Scanner scanner = new Scanner(System.in);
         do {
             System.out.println("|>>>>>>>>>>>>>>>>>>>>>>MENU<<<<<<<<<<<<<<<<<<<<|");
-            System.out.println("|>>1. Nhập danh sách sản phẩm.                 |");
-            System.out.println("|>>2. Xuất danh sách sản phẩm.                 |");
+            System.out.println("|>>1. Nhập tên nhân viên.                      |");
+            System.out.println("|>>2. Xuất danh sách nhân viên.                |");
             System.out.println("|>>3. Tính lương nhân viên.                    |");
             System.out.println("|>>4. Kết thúc! Chào tạm biệt.                 |");
             System.out.println("|>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<|");
