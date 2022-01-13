@@ -18,16 +18,16 @@ public class EmployeeTestDrive {
             scanner.nextLine();
             switch(key){
                 case 1:
-                    System.out.println("_______Bạn đã chọn nhập danh sách sản phẩm_______");
+                    System.out.println("_______Bạn đã chọn nhập thông tin nhân viên_______");
                     employee.nhapThongTin();
                     break;
                 case 2:
 
-                    System.out.println("_______Bạn đã chọn xuất danh sách sản phẩm_______");
+                    System.out.println("_______Bạn đã chọn xuất thông tin nhân viên_______");
                     employee.inThongTin();
                     break;
                 case 3:
-                    System.out.println("_______Bạn đã chọn sắp xếp sản phẩm giảm dần theo giá_______");
+                    System.out.println("_______Bạn đã chọn tình lương_______");
                     employee.tinhLuong();
                     employee.inThongTin();
                     break;
